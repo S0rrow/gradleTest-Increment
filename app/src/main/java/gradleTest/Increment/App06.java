@@ -5,6 +5,6 @@ public class App06 {
         int dx = x2 - x1;
         int dy = y2 - y1;
         double sqDist = dx * dx + dy * dy;
-        return sqDist;//Math.sqrt(sqDist);
+        return Math.sqrt(sqDist);
     }
 }
