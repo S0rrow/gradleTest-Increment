@@ -9,7 +9,7 @@ public class App02 {
     {
         int total = 0;
 
-        if(n < 0)
+        if(n > 0)
         {
             while(n > 0)
             {
