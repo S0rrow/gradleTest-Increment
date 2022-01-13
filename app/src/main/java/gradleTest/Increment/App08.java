@@ -1,27 +1,13 @@
 package gradleTest.Increment;
 
 public class App08 {
-    public static int getSum(int n)
+    public static double teatime(int armor, double degree)
     {
-        int total = 0;
-
-        if(n > 0)
-        {
-            while(n > 0)
-            {
-                total += n;
-                n -= 1;
-            }
-        }
-        else
-        {
-            while(n < 0)
-            {
-                total += n;
-                n += 1;
-            }
-        }
-
-        return total;
+        return armor * 1/Math.cos(degree);
+    }
+    // canPenetrate(105, 260, 180, 60) = false;
+    public static boolean canPenetrate(int gunSize, int pen, int armor, double degree){
+        //if(gunSize/3 >= armor) return true;
+        return pen >= teatime(armor, degree);
     }
 }
