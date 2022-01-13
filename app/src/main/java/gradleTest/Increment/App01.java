@@ -3,8 +3,6 @@
  */
 package gradleTest.Increment;
 
-import java.util.Scanner;
-
 public class App01 {
     public static int getSum(int n)
     {
