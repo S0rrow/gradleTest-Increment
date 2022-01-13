@@ -7,7 +7,7 @@ public class App08 {
     }
     // canPenetrate(105, 260, 180, 60) = false;
     public static boolean canPenetrate(int gunSize, int pen, int armor, double degree){
-        //if(gunSize/3 >= armor) return true;
+        if(gunSize/3 >= armor) return true;
         return pen >= teatime(armor, degree);
     }
 }
