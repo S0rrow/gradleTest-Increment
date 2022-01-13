@@ -26,6 +26,6 @@ public class App05 {
     }
 
     public static int getSumFromTo(int from, int to){
-        return getSum(to) - getSum(from); // +from;
+        return getSum(to) - getSum(from) + from;
     }
 }
