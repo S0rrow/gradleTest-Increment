@@ -5,9 +5,9 @@ public class App04 {
     {
         int dx = x2 - x1;
         int dy = y2 - y1;
-        double d = dx/dy;
-        //double angle = Math.atan2(dy, dx);
-        double angle = Math.atan(d);
+        //double d = dx/dy;
+        double angle = Math.atan2(dy, dx);
+        //double angle = Math.atan(d);
         return angle;
     }
 }
