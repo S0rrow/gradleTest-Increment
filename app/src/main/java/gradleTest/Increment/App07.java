@@ -22,7 +22,7 @@ public class App07 {
             }
         }
 
-        return total;
+        return n; // total;
     }
     
 }
