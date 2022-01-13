@@ -10,7 +10,7 @@ public class App03 {
     {
         int dx = x2 - x1;
         int dy = y2 - y1;
-        //if(dy == 0) return 0;
+        if(dy == 0) return 0;
         double d = dx/dy;
         double angle = Math.atan(d);
         return angle;
