@@ -9,7 +9,7 @@ public class App10 {
         {
             while(n > 0)
             {
-                total += n;
+                total -= n;
                 n -= 1;
             }
         }
